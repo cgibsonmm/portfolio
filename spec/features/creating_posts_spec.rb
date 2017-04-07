@@ -2,7 +2,7 @@ require 'rails_helper.rb'
 
 feature 'Creating Posts' do
   scenario 'can creat a post' do
-    visit '/'
+    visit '/posts'
     click_link 'New Post'
     fill_in 'Title', with: "First Post"
     fill_in 'Body', with: "This is the body i need 20 chars"
@@ -12,7 +12,7 @@ feature 'Creating Posts' do
   end
 
   scenario 'post should have title' do
-    visit '/'
+    visit '/posts'
     click_link 'New Post'
     fill_in 'Title', with: ""
     fill_in 'Body', with: 'No Title here'
@@ -21,7 +21,7 @@ feature 'Creating Posts' do
   end
 
   scenario 'post body should have greater than 20 chars' do
-    visit '/'
+    visit '/posts'
     click_link 'New Post'
     fill_in 'Title', with: 'This post should have a body'
     fill_in 'Body', with: '123456789'
