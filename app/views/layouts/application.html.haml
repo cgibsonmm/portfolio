@@ -3,9 +3,12 @@
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title Portfolio
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    = render 'parts/flash'
-    = yield
+    %div.ui.container
+      = render 'parts/navbar'
+      = render 'parts/flash'
+      = yield

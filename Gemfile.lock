@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/doabit/semantic-ui-sass.git
+  revision: 308d74a16d9acad903cd20f829634aa92d68699c
+  specs:
+    semantic-ui-sass (2.2.9.3)
+      sass (>= 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,6 +75,8 @@ GEM
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.1)
+      railties (>= 3.2, < 5.1)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     haml (4.0.7)
@@ -199,6 +208,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.2)
   factory_girl_rails
+  font-awesome-rails
   haml
   jbuilder (~> 2.5)
   jquery-rails
@@ -208,6 +218,7 @@ DEPENDENCIES
   rails (~> 5.0.2)
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)
+  semantic-ui-sass!
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)

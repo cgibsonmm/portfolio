@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'capybara'
 gem 'simple_form'
 gem 'haml'
+gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
+gem "font-awesome-rails"
 
 group :development, :test do
   gem 'byebug', platform: :mri
