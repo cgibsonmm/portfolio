@@ -5,7 +5,7 @@ feature 'Creating Posts' do
     visit '/'
     click_link 'New Post'
     fill_in 'Title', with: "First Post"
-    fill_in 'Body', with: "This is the body"
+    fill_in 'Body', with: "This is the body i need 20 chars"
     click_button 'Create Post'
     expect(page).to have_content('First Post')
     expect(page).to have_content('This is the body')
