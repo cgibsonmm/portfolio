@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the README file for Corey Gibson's portfolio page. More info to come! 
 
 Things you may want to cover:
 
@@ -22,3 +21,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+TODO: need to add the rest of routes for posts, build every thing else
