@@ -10,4 +10,13 @@ feature 'Creating Posts' do
     expect(page).to have_content('First Post')
     expect(page).to have_content('This is the body')
   end
+
+  scenario 'post should have title' do
+    visit '/'
+    click_link 'New Post'
+    fill_in 'Title', with: ""
+    fill_in 'Body', with: 'No Title here'
+    click_button 'Create Post'
+    expect(page).to have_content('Error creating post')
+  end
 end
