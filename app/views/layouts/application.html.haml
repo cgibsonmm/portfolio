@@ -8,7 +8,7 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %div.ui.container
+    .ui.fluid.container#page-body
       = render 'parts/navbar'
       = render 'parts/flash'
       = yield

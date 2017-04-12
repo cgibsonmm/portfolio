@@ -1,4 +1,7 @@
-$font-url: 'https://fonts.googleapis.com/css?family=Pavanam|Raleway';
+$font-url: 'https://fonts.googleapis.com/css?family=Pavanam|Raleway|Ropa+Sans';
+$base-font: Pavanam;
+$sec-font: Raleway;
+$third-font: 'Ropa Sans';
 @import "semantic-ui";
 @import "semantic-ui/collections/menu";
 @import '*';
